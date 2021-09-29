@@ -23,7 +23,7 @@ var reload = browserSync.reload;
 
 gulp.task('browserSync', ['php'], function () {
   browserSync.init({
-    proxy: 'localhost:5000', // You may need to change your port number, currently set to 5000 if already in use
+    proxy: 'localhost/blackparadox_sass_jquery', // You may need to change your port number, currently set to 5000 if already in use
     baseDir: './',
     open: true,
     notify: false,

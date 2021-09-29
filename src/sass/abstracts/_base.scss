@@ -1,0 +1,36 @@
+@import 'colors';
+
+:root {
+  @each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+      --clr-#{$color}-#{$shade}: #{$value};
+    }
+  }
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  @extend .transition-slow;
+
+  &:hover {
+    color: var(--clr-secondary-orange-600);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--clr-primary-black-900);
+}
+
+p {
+  color: var(--clr-primary-black-300);
+}
+
+.transition-slow {
+  transition: all 500ms ease-out;
+}

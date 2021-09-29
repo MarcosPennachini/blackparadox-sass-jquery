@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <nav id="nav">
+        <nav id="nav" class="py-2">
             <div class="container-fluid">
                 <div class="row">
                     <!-- Logo -->
@@ -28,11 +28,11 @@
                             <img src="dist/img/logo.svg" alt="Logo Black Paradox">
                         </a>
                     </div>
-
+                    <!-- Logo -->
                     <div class="col-lg-10 col-xl-10">
                         <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
                             <li><button id="portfolioLink">Portfolio</button></li>
                             <li><a href="#">Contacto</a></li>
                         </ul>

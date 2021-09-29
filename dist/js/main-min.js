@@ -1,0 +1,1 @@
+console.log("HOla"),$("#portfolioLink").click(function(o){o.preventDefault,$("#render").load("portfolio.php")});

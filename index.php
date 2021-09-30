@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./dist/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./dist/css/main.css">
+    <!-- Slider Slippry -->
+    <link rel="stylesheet" href="./dist/css/slippry.css">
 
     <link rel="shortcut icon" href="./dist/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./dist/favicon.ico" type="image/x-icon">
@@ -23,18 +25,26 @@
             <div class="container-fluid">
                 <div class="row">
                     <!-- Logo -->
-                    <div class="col-lg-2 col-xl-2">
-                        <a href="#">
-                            <img src="dist/img/logo.svg" alt="Logo Black Paradox">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a href="#" class="logo">
+                            <img src="dist/images/logo.svg" alt="Logo Black Paradox">
                         </a>
                     </div>
                     <!-- Logo -->
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 d-flex align-items-center justify-content-end">
                         <ul>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#nosotros">Nosotros</a></li>
-                            <li><button id="portfolioLink">Portfolio</button></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li class="px-2 link-active">
+                                <a href="#">Inicio</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="#nosotros">Nosotros</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="#" id="portfolioLink">Portfolio</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="#">Contacto</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -43,8 +53,20 @@
 
     </header>
 
-    <div class="container-fluid" id="render">
-        <h1>Principal</h1>
+    <div id="render">
+        <section id="slider">
+            <ul id="slippry">
+                <li>
+                    <img src="dist/images/slide_01.jpg" alt="Slide de slippry">
+                </li>
+                <li>
+                    <img src="dist/images/slide_02.jpg" alt="Slide de slippry">
+                </li>
+                <li>
+                    <img src="dist/images/slide_03.jpg" alt="Slide de slippry">
+                </li>
+            </ul>
+        </section>
     </div>
 
     <footer>
@@ -53,6 +75,7 @@
 
     <script src="./dist/js/jquery-3.6.0-min.js"></script>
     <script src="./dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./dist/js/slippry.min.js"></script>
     <script src="./dist/js/main-min.js"></script>
 
 </body>

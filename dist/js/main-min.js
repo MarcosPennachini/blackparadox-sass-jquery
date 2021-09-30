@@ -1,1 +1,1 @@
-console.log("HOla"),$("#portfolioLink").click(function(o){o.preventDefault,$("#render").load("portfolio.php")});
+$(document).ready(function(){$("#slippry").slippry({captions:!1,pager:!1})});

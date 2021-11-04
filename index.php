@@ -53,7 +53,56 @@
 
     </header>
 
-    <div id="render">
+
+
+    <div style="height: 100px;"></div>
+    <div class="container">
+        <div class="row mt-3">
+            <h3 class="text-center" id="title">Título</h3>
+        </div>
+        <!-- Botones -->
+        <div class="row justify-content-center" id="rowButtons">
+            <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 d-flex justify-content-between">
+                <button class="btn btn-primary" id="btn1">Opcion 1</button>
+                <button class="btn btn-info" id="btn2">Opcion 2</button>
+                <button class="btn btn-dark" id="btn3">Opcion 3</button>
+            </div>
+        </div>
+        <!-- Steps -->
+        <div class="row justify-content-center my-2" id="stepsDraw" style="display: none;">
+            <div class="col-md-8 col-lg-6 col-xl-6 d-flex justify-content-between align-items-center">
+                <div class="rounded-circle" style="height: 40px; width: 40px; background-color:aquamarine" id="s1">1</div>
+                <div class="rounded-circle bg-secondary" style="height: 40px; width: 40px;" id="s2">2</div>
+                <div class="rounded-circle bg-secondary" style="height: 40px; width: 40px;" id="s3">3</div>
+            </div>
+        </div>
+        <!-- Contenido de steps -->
+        <div id="divTablas" class="my-3" style="display: none;">
+            <div class="card border-light">
+                <table class="bg-primary step" id="table" style="height: 100px;">
+                </table>
+                <table class="bg-danger step" id="table" style="height: 100px;">
+                </table>
+                <table class="bg-info step" id="table" style="height: 100px;">
+                </table>
+                <table class="bg-dark step" id="table" style="height: 100px;">
+                </table>
+                <table class="bg-warning step" id="table" style="height: 100px;">
+                </table>
+                <table class="bg-secondary step" id="table" style="height: 100px;">
+                </table>
+            </div>
+        </div>
+        <div id="formButtons" style="display: none;">
+            <div class="row my-3">
+                <div class="col-lg-12">
+                    <button class="btn btn-secondary float-start" id="anterior">Anterior</button>
+                    <button class="btn btn-info float-end" id="siguiente">Siguiente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="render">
         <section id="slider">
             <ul id="slippry">
                 <li>
@@ -67,7 +116,9 @@
                 </li>
             </ul>
         </section>
-    </div>
+    </div> -->
+
+
 
     <footer>
 
